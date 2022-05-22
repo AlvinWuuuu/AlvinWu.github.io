@@ -71,7 +71,7 @@ a {
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 1000000; }
+  z-index: 10000000; }
 
 #sonar-load {
   width: 70px;
@@ -781,39 +781,17 @@ img {
       @media only screen and (max-width: 767px) {
         .single-portfolio-item.portfolio-item-7 .backend-content h2 {
           top: -60px; } }
-    .single-portfolio-item.portfolio-item-8 .backEnd-content  {
-      top: auto;
-      left: -200px;
-      right: auto;
-      -webkit-transform: rotate(90deg);
-      
-      transform: rotate(90deg); }
-    .single-portfolio-item.portfolio-item-8 .backend-content h2 {
-      top: -200px;
-      left: 30%;
-      right: auto; }
-      @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .single-portfolio-item.portfolio-item-3 .backend-content h2 {
-          top: -130px; } }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .single-portfolio-item.portfolio-item-8 .backend-content h2 {
-          top: auto;
-          font-size: 100px; } }
-      @media only screen and (max-width: 767px) {
-        .single-portfolio-item.portfolio-item-8 .backend-content h2 {
-          top: auto; } }
-       @media only screen and (max-width: 767px) {
-        .single-portfolio-item.portfolio-item-8 {
-           margin-bottom: 100px; } }
-  .single-portfolio-item.portfolio-item-9 .backEnd-content h2  {
-      top: -5cm;
-      left: 0px;
-      right: auto;
-      -webkit-transform: rotate(90deg);
-      
-      transform: rotate(90deg); }    
+.single-portfolio-item.portfolio-item-8 {
+    top: auto;
+    left: 0px;}
+    @media only screen and (max-width: 767px) {
+      .single-portfolio-item.portfolio-item-8 {
+        height: auto;
+        margin-bottom: 100px; } }
+   
 .single-portfolio-item.portfolio-item-9 {
-    top: -300px;
+    top: -400px;
+    left: 40px;
     height: 0; }
     @media only screen and (max-width: 767px) {
       .single-portfolio-item.portfolio-item-9 {
@@ -821,6 +799,7 @@ img {
         margin-bottom: 100px; } }
 .single-portfolio-item.portfolio-item-10 {
     top: auto;
+    left: -500px;
     height: 0; }
     @media only screen and (max-width: 767px) {
       .single-portfolio-item.portfolio-item-10 {
